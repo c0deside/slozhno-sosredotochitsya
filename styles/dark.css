@@ -2,6 +2,7 @@
   --primary-color: #f1b2ce;
   --accent-color: #ff0070;
   --background-color: #000028;
+  --secondary-color: #db00ff;
 }
 
 .page.theme_dark {
@@ -26,10 +27,6 @@
 
 .theme_dark .header__theme-menu-button:hover {
   border: 1px solid rgb(from var(--accent-color) r g b / 0.4);
-}
-
-.theme_dark .title {
-  color: #db00ff;
 }
 
 .theme_dark .header__title {

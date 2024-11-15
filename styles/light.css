@@ -2,6 +2,7 @@
   --primary-color: #353430;
   --accent-color: #ff8dcb;
   --background-color: #fff1f7;
+  --secondary-color: #ff0070;
 }
 
 .page.theme_light {
@@ -33,7 +34,7 @@
 }
 
 .theme_light .header__title {
-  text-shadow: 4px 4px 0 #ff0070;
+  text-shadow: 4px 4px 0 var(--secondary-color);
 }
 
 .theme_light .title-decor,
@@ -42,7 +43,7 @@
 }
 
 .theme_light .footer__title {
-  text-shadow: 2px 2px 0 #ff0070;
+  text-shadow: 2px 2px 0 var(--secondary-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -50,6 +51,7 @@
     --primary-color: #353430;
     --accent-color: #ff8dcb;
     --background-color: #fff1f7;
+    --secondary-color: #ff0070;
   }
 
   .page {
@@ -81,7 +83,7 @@
   }
 
   .header__title {
-    text-shadow: 4px 4px 0 #ff0070;
+    text-shadow: 4px 4px 0 var(--secondary-color);
   }
 
   .title-decor,
@@ -90,6 +92,6 @@
   }
 
   .footer__title {
-    text-shadow: 2px 2px 0 #ff0070;
+    text-shadow: 2px 2px 0 var(--secondary-color);
   }
 }
