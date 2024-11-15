@@ -179,16 +179,25 @@
 }
 
 .main {
-  /* 40px на экранах меньше 768px, 60px на остальных */
-  padding: min(round(down, max(100lvw, 748px) - 708px, 20px), 60px) 0;
-}
-
-.main__section:not(:last-child) {
-  /* 50px на экранах меньше 768px, 80px на остальных */
-  margin-block-end: min(round(down, max(100lvw, 768px) - 718px, 10px), 80px);
+  padding: 40px 0;
 }
 
 @media (width >= 768px) {
+  .main {
+    padding-block-start: 60px;
+    padding-block-end: 60px;
+  }
+}
+
+.main__section:not(:last-child) {
+  margin-block-end: 50px;
+}
+
+@media (width >= 768px) {
+  .main__section:not(:last-child) {
+    margin-block-end: 80px;
+  }
+
   .reasons,
   .recommendations {
     display: grid;

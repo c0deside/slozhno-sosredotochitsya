@@ -2,7 +2,11 @@
   --primary-color: #f1b2ce;
   --accent-color: #ff0070;
   --background-color: #000028;
+  --main-gap: 10px;
+}
 
-  /* 10px на экранах меньше 768px, 20px на остальных */
-  --main-gap: min(round(down, max(100lvw, 758px) - 748px, 10px), 20px);
+@media (width >= 768px) {
+  :root {
+    --main-gap: 20px;
+  }
 }
