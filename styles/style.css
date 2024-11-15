@@ -68,7 +68,7 @@
   padding-inline-end: 10px;
   color: var(--accent-color);
   font-size: 18px;
-  inset-inline-end: 0;
+  inset-inline-end: var(--main-gap);
   inset-block-start: calc(var(--main-gap) + 1px);
 }
 
