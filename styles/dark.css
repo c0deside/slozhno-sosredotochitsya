@@ -1,43 +1,12 @@
-:root .theme_dark {
+.page.theme_dark {
   --primary-color: #f1b2ce;
   --accent-color: #ff0070;
   --background-color: #000028;
   --secondary-color: #db00ff;
-}
-
-.page.theme_dark {
-  background-image: url(../images/cover-image-dark.png);
-}
-
-.theme_dark .decorated-zone::before,
-.theme_dark .decorated-zone::after,
-.theme_dark .header__theme-menu-button:focus-visible,
-.theme_dark .header__theme-menu-button:active,
-.theme_dark .header__theme-menu-button_active {
-  border-color: var(--accent-color);
-}
-
-.theme_dark .decorated-zone__decoration {
-  display: flex;
-}
-
-.theme_dark .header__theme-menu-button {
-  color: var(--accent-color);
-}
-
-.theme_dark .header__theme-menu-button:hover {
-  border: 1px solid rgb(from var(--accent-color) r g b / 0.4);
-}
-
-.theme_dark .header__title {
-  text-shadow: 4px 4px 0 var(--accent-color);
-}
-
-.theme_dark .title-decor,
-.theme_dark .section__heading {
-  color: var(--background-color);
-}
-
-.theme_dark .footer__title {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  --secondary-heading-color: var(--background-color);
+  --main-heading-color: var(--secondary-color);
+  --main-shadow-color: var(--accent-color);
+  --decoration-color: var(--accent-color);
+  --decoration-display: flex;
+  --main-background-image: url(../images/cover-image-dark.png);
 }

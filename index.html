@@ -7,7 +7,9 @@
 
     <title>Сложно сосредоточиться</title>
 
-    <link rel="icon" href="images/favicon.svg" />
+    <link rel="icon" href="images/favicon.ico" sizes="any" />
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
     <link rel="stylesheet" href="fonts/fonts.css" />
     <link rel="stylesheet" href="styles/variables.css" />
     <link rel="stylesheet" href="styles/globals.css" />
@@ -58,7 +60,7 @@
       <section class="section main__section reasons">
         <h2 class="section__heading">Почему сосредоточиться так сложно</h2>
 
-        <ul class="list">
+        <ul class="list reasons__list">
           <li class="list__item">
             <h3 class="list__heading title-decor">Многозадачность</h3>
 
@@ -70,6 +72,8 @@
               <a
                 href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7075496/"
                 class="link"
+                target="_blank"
+                rel="noopener noreferrer"
                 >выяснили</a
               >, что мозгу тяжело концентрироваться даже на двух делах
               одновременно. А когда в поле внимания попадает несколько важных
@@ -155,7 +159,7 @@
             5 простых (на самом деле не очень) советов
           </h3>
 
-          <ul class="list">
+          <ul class="list recommendations__list">
             <li class="list__item">
               <h4 class="list__heading title-decor article__subheading">
                 Представьте небо и облака
@@ -196,6 +200,8 @@
                 <a
                   href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
                   class="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >показал</a
                 >, что созерцание природы повышает концентрацию, в то время как
                 после просмотра городских пейзажей она наоборот понижается.
@@ -239,38 +245,52 @@
       <section class="section main__section gallery">
         <h2 class="gallery__heading title-decor">А можно в картинках?</h2>
 
-        <div class="images">
-          <img
-            src="images/sunset.png"
-            alt="Солнце заходит за горы"
-            loading="lazy"
-            class="gallery__image sunset"
-          />
-          <img
-            src="images/ice-cream.png"
-            alt="Мороженое с кусочками фруктов в тарелке"
-            loading="lazy"
-            class="gallery__image ice-cream"
-          />
-          <img
-            src="images/tape.png"
-            alt="Аудиокассета и компьютерные окна с аудиоплеером"
-            loading="lazy"
-            class="gallery__image tape"
-          />
-          <img
-            src="images/books.png"
-            alt="Стопка книжек с чашкой кофе на них"
-            loading="lazy"
-            class="gallery__image"
-          />
-          <img
-            src="images/street.png"
-            alt="Городская улица с вывесками с иероглифами"
-            loading="lazy"
-            class="gallery__image street"
-          />
-        </div>
+        <ul class="images-list">
+          <li class="images-list__item sunset">
+            <img
+              src="images/sunset.png"
+              alt="Солнце заходит за горы"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+
+          <li class="images-list__item ice-cream">
+            <img
+              src="images/ice-cream.png"
+              alt="Мороженое с кусочками фруктов в тарелке"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+
+          <li class="images-list__item tape">
+            <img
+              src="images/tape.png"
+              alt="Аудиокассета и компьютерные окна с аудиоплеером"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+
+          <li class="images-list__item">
+            <img
+              src="images/books.png"
+              alt="Стопка книжек с чашкой кофе на них"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+
+          <li class="images-list__item street">
+            <img
+              src="images/street.png"
+              alt="Городская улица с вывесками с иероглифами"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+        </ul>
       </section>
     </main>
 

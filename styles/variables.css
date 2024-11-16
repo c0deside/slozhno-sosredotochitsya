@@ -3,7 +3,14 @@
   --accent-color: #ff0070;
   --background-color: #000028;
   --secondary-color: #db00ff;
+  --secondary-heading-color: var(--background-color);
+  --main-heading-color: var(--secondary-color);
+  --main-shadow-color: var(--accent-color);
+  --decoration-color: var(--accent-color);
+  --decoration-display: flex;
+  --main-background-image: url(../images/cover-image-dark.png);
   --main-gap: 10px;
+  --min-full-block-size: 668px;
 }
 
 @media (width >= 768px) {
